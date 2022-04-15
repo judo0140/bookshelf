@@ -113,5 +113,5 @@ rosrun bookshelf test_dxl.py
 
 노드 실행 시의 다이나믹셀(CAM)의 현재 위치가 's' 입력 시의 위치가 됨
 
-'w', 'x' 는 's' 위치를 기준으로 45degree 
+'w', 'x' 는 's' 위치를 기준으로 45degree 회전
 
