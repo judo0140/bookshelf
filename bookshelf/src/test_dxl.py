@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import dxl
-#import dxl2
-
 import os
 
 if os.name == 'nt':
