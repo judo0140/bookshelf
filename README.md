@@ -1,6 +1,15 @@
-# 0. 
+# 0. 환경 셋업
 
 * src/dxl.py  +  src/test_dxl.py  모두 라즈베리파이의 ~/catkin_ws/src/bookshelf/src 폴더로
+
+
+![image](https://user-images.githubusercontent.com/61779427/163523419-96849f07-1cf0-4877-bd59-82ac755cd6ea.png)
+
+* 메인 PC 및 라즈베리파이의 ROS 네트워크 설정
+* 동일 네트워크망 접속 여부
+* ssh 원격 접속을 위한 각 디바이스 ip address 파악
+* OpenCR 보드와 12V/5A 파워 연결 여부 및 보드 내 스위치 ON/OFF 여부
+
 
 # 1. 소프트웨어 셋업
 
@@ -86,8 +95,8 @@ source ~/.bashrc
 ```
 
 --------------
-# 4. 실행
-## 4.1 ROS 및 노드 실행
+# 3. 실행
+## 3.1 ROS 및 노드 실행
 
 1) PC
 
@@ -109,9 +118,20 @@ ssh pi@192.168.0.4
 rosrun bookshelf test_dxl.py
 ```
 
-## 4.2 조작
+## 3.2 조작
 
 노드 실행 시의 다이나믹셀(CAM)의 현재 위치가 's' 입력 시의 위치가 됨
 
 'w', 'x' 는 's' 위치를 기준으로 45degree 회전
 
+----------------
+# 4. 하드웨어
+## 4.1 프로파일
+
+구매 : 디바이스메이커 서비스 20x20 프로파일 및 볼트, 너트 https://www.devicemart.co.kr/goods/maker?custom=al_profile
+
+## 4.2 다이나믹셀 & OpenCR
+
+구매 : https://www.robotis.com/shop/
+
+참고 : https://emanual.robotis.com/docs/kr/
