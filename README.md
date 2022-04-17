@@ -135,3 +135,8 @@ rosrun bookshelf test_dxl.py
 구매 : https://www.robotis.com/shop/
 
 참고 : https://emanual.robotis.com/docs/kr/
+
+## 4.3 볼롤러
+
+구매 : 한국미스미 볼롤러 BCHAJ7.5
+
